@@ -131,19 +131,19 @@
 
   <body
     data-color-scheme="auto"
-    data-uppercase-categories="true"
+    data-uppercase-categories="false"
     
     data-config-root="/"
     
     data-toc="true"
-    data-toc-max-depth="2"
+    data-toc-max-depth="3"
     
     
     
     data-scroll-reveal-disappear="false"
     data-scroll-reveal-query=".scroll-reveal, .post-list-item, .card, .content p img, .content .block-large img"
     
-    data-nav-blur-gradient="false"
+    data-nav-blur-gradient="true"
     style="--config-corner-squircle: true"
   >
     
@@ -152,17 +152,39 @@
     <a href="#main-content" id="skip-to-content">Skip to content</a>
     
 
+<div class="nav-mask">
+  
+  <div style="--sharp: 1"></div>
+  
+  <div style="--sharp: 2"></div>
+  
+  <div style="--sharp: 3"></div>
+  
+  <div style="--sharp: 4"></div>
+  
+  <div style="--sharp: 5"></div>
+  
+  <div style="--sharp: 6"></div>
+  
+</div>
+
 <nav id="theme-nav">
   <div class="inner">
-    <a class="title" href="/">Blog</a>
+    <a class="title" href="/">Char1esss</a>
     <div class="nav-arrow"></div>
     <div class="nav-items">
       <a class="nav-item nav-item-home" href="/" style="--index: 0">Home</a>
 
       
-      <a class="nav-item" href="/archives" style="--index: 1">Archives</a>
+      <a class="nav-item" href="/" style="--index: 1">首页</a>
       
-      <a class="nav-item is-icon" href="/search" style="--index: 2"><i class="bi bi-search"></i></a>
+      <a class="nav-item" href="/archives" style="--index: 2">归档</a>
+      
+      <a class="nav-item" href="/categories" style="--index: 3">分类</a>
+      
+      <a class="nav-item" href="/tags" style="--index: 4">标签</a>
+      
+      <a class="nav-item is-icon" href="/search" style="--index: 5"><i class="bi bi-search"></i></a>
       
     </div>
   </div>
@@ -172,8 +194,9 @@
       <div class="container">
   
   <div class="hero exit-while-scroll">
-    <h2 class="title">Welcome to Theme Cupertino</h2>
-    <h2 class="description">Aliquip voluptate ea velit consequat deserunt officia do aliqua est do consequat aute.
+    <h2 class="title">Char1esss Blog</h2>
+    <h2 class="description">记录学习、开发与思考。
+Welcome to my personal blog.
 </h2>
   </div>
 
@@ -191,9 +214,13 @@
           Hello World
         </div>
         
+        <div class="excerpt">
+          
+        </div>
+        
         
         <time class="time" datetime="2026-03-02T11:11:16+08:00">
-          March 2, 2026
+          2026-03-02
         </time>
         
       </div>
@@ -223,16 +250,14 @@
         
         <a href="/categories" class="item">Categories</a>
         
-        <a href="/search" class="item">Search</a>
-        
-        <a href="/atom.xml" class="item">RSS</a>
-        
       </div>
       
       <div class="group">
-        <h2 class="title">Source Code</h2>
+        <h2 class="title">Social</h2>
         
-        <a target="_blank" rel="noopener" href="https://github.com/MrWillCom/hexo-theme-cupertino" class="item">GitHub</a>
+        <a target="_blank" rel="noopener" href="https://github.com/Char1esss-xyz" class="item">GitHub</a>
+        
+        <a href="/atom.xml" class="item">RSS</a>
         
       </div>
       
@@ -241,12 +266,15 @@
         
         <a target="_blank" rel="noopener" href="https://hexo.io/" class="item">Hexo</a>
         
-        <a target="_blank" rel="noopener" href="https://sass-lang.com/" class="item">Sass</a>
+        <a target="_blank" rel="noopener" href="https://github.com/MrWillCom/hexo-theme-cupertino" class="item">Theme Cupertino</a>
         
       </div>
       
     </div>
     <span>&copy; 2026 John Doe<br>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></span>
+    
+    <br>
+    <span class="footer-extra-description">Powered by Hexo & Cupertino</span>
     
     
       <br>
